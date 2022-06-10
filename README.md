@@ -15,8 +15,8 @@ Here are some ideas to get you started:
 -->
 
 <!-- GitHub 统计卡片 -->
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=rangang)](https://github.com/anuraghazra/github-readme-stats)
+<!-- [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=rangang)](https://github.com/anuraghazra/github-readme-stats) -->
 <!-- 显示图标 -->
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=rangang&show_icons=true)
+<!-- ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=rangang&show_icons=true) -->
 <!-- 主题 -->
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=rangang&show_icons=true&theme=radical)
