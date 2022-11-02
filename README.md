@@ -1,8 +1,10 @@
-你好 👋
 
-<img align="right" src="https://github-readme-stats.vercel.app/api?username=rangang&show_icons=true&theme=radical" />
+<h1 align="center"> <a href="https://sunguoqi.com/"> <img src="https://readme-typing-svg.herokuapp.com/?lines=你好！很高兴你点开了我的主页&center=true&size=27"> </a> </h1>
 
-😄很高兴你点开了我的主页
+
+<div align="center"> <img src="https://activity-graph.herokuapp.com/graph?username=rangang&theme=xcode" /> </div>
+
+
 
 
 - 🔭 我是一个Java开发工程师
