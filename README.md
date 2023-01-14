@@ -10,6 +10,7 @@
 
 <!-- 贪吃蛇代码贡献图 -->
 <div align="center"><img src="https://cdn.jsdelivr.net/gh/rangang/rangang/github-contribution-grid-snake.svg" /></div>
+![github contribution grid snake animation](https://raw.githubusercontent.com/rangang/rangang/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)![github contribution grid snake animation](https://raw.githubusercontent.com/rangang/rangang/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 
 #  👏 Hello
 😄 大家好，我是RG同学! 目前主攻Java<br>
