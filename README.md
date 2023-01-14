@@ -9,7 +9,7 @@
 <h1 align="center"> <a href="https://sunguoqi.com/"> <img src="https://readme-typing-svg.herokuapp.com/?lines=你好！很高兴你点开了我的主页&center=true&size=27"> </a> </h1>
 
 <!-- 贪吃蛇代码贡献图 -->
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/rangang/rangang/assets/github-contribution-grid-snake.svg" /></div>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/rangang/rangang/github-contribution-grid-snake.svg" /></div>
 
 #  👏 Hello
 😄 大家好，我是RG同学! 目前主攻Java<br>
