@@ -12,8 +12,8 @@
 <div align="center"><img src="https://raw.githubusercontent.com/rangang/rangang/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only" /></div>
 
 #  👏 Hello
-😄 大家好，我是RG同学! 目前主攻Java<br>
-🔭 还会iOS、小程序、前端等等<br>
+😄 大家好，我是RG同学! 目前主攻前端<br>
+🔭 还会移动端、后端Java<br>
 🌟 希望我写下的东西能帮助到你<br>
 
 <!-- GitHub数据统计 -->
