@@ -11,16 +11,9 @@
 <!-- 贪吃蛇代码贡献图 -->
 <div align="center"><img src="https://raw.githubusercontent.com/rangang/rangang/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only" /></div>
 
-#  👏 Hello
-😄 大家好，我是RG同学! 目前主攻前端<br>
-🔭 还会移动端、后端Java<br>
-🌟 希望我写下的东西能帮助到你<br>
-
 <!-- GitHub数据统计 -->
 <img height="137px" src="https://github-readme-stats.vercel.app/api?username=rangang&hide_title=true&hide_border=true&show_icons=trueline_height=21&text_color=000&icon_color=000&bg_color=0,ea6161,ffc64d,fffc4d,52fa5a&theme=graywhite" />
 
-<!-- 动态生成的活动图，用于显示您过去 31 天的 GitHub 活动 -->
-<div align="center"> <img src="github-contribution-grid-snake.svg" /> </div>
 
 
 
