@@ -1,25 +1,117 @@
-<!-- 连续提交代码天数记录 -->
-<div align="center">
-  <img width="150" src="https://cdn.jsdelivr.net/gh/rangang/rangang/left.png" />
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=rangang&theme=dark&hide_border=true" />
-  <img width="150" src="https://cdn.jsdelivr.net/gh/rangang/rangang/right.png" />
-</div>
-<br>
+# 👋 Hi there! I’m [Your Name]
 
-<h1 align="center"> <a href="https://sunguoqi.com/"> <img src="https://readme-typing-svg.herokuapp.com/?lines=你好！很高兴你点开了我的主页&center=true&size=27"> </a> </h1>
+## 🌟 Dynamic Typing Effect
+Welcome to my profile! Here’s a peek into my technical world!
 
-<!-- 贪吃蛇代码贡献图 -->
-<div align="center"><img src="https://raw.githubusercontent.com/rangang/rangang/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only" /></div>
+```javascript
+const profile = {
+  name: "Rangang",
+  skills: ["Java Backend", "Spring Ecosystem", "Full Stack Development"],
+  contributions: ["Educational Projects", "Business Projects", "Utilities", "Blog"]
+};
+```
 
-<!-- GitHub数据统计 -->
-<img height="137px" src="https://github-readme-stats.vercel.app/api?username=rangang&hide_title=true&hide_border=true&show_icons=trueline_height=21&text_color=000&icon_color=000&bg_color=0,ea6161,ffc64d,fffc4d,52fa5a&theme=graywhite" />
+## 🔍 About Me  
+I specialize in **Java Backend Development** and the **Spring Ecosystem**, with a passion for **Full-Stack Development**. I enjoy creating robust applications that solve real-world problems.
 
+## ⚙️ Technical Skills  
+- **Backend:** Java, Spring Boot, Hibernate  
+- **Frontend:** HTML, CSS, JavaScript, React  
+- **Tools:** Git, Docker, Jenkins  
 
+## 🛠️ Key Projects  
+### Educational Projects  
+- [springboot_edu](#)  
+- [edu_course_system](#)  
+- [ssm_edu_system](#)  
+- [distributed_edu](#)  
 
+### Business Projects  
+- [ganggang-backend](#)  
+- [zk_product_second_kill](#)  
+- [chedianzhushou-uniapp](#)  
 
+### Tools and Utilities  
+- [RGAlertTool](#)  
+- [PDF-DataMaskingTool](#)  
 
+### Blog and Documentation  
+- [vitepress-rangang-blog](#)  
+- [rangang-blog](#)  
 
+## 📊 GitHub Statistics  
+![GitHub Activity](#)  
+![Most Used Languages](#)  
+![Contributions](#)  
 
+## 🎮 Contribution Snake Animation
+![Contribution Snake](#)
 
+## 🌐 Social Links:
+- [LinkedIn](#)
+- [Twitter](#)
+- [Facebook](#)
 
+## 📫 Contact Me:
+Feel free to reach out via email at [your_email@example.com]. 
 
+---  
+
+### 中文版本:
+
+# 👋 嗨，大家好！我叫 [Your Name]
+
+## 🌟 动态打字效果
+欢迎来到我的个人资料！来看看我技术世界的一瞥！
+
+```javascript
+const profile = {
+  name: "Rangang",
+  skills: ["Java 后端", "Spring 生态", "全栈开发"],
+  contributions: ["教育项目", "商业项目", "工具", "博客"]
+};
+```
+
+## 🔍 关于我  
+我专注于 **Java 后端开发** 和 **Spring 生态系统**，对 **全栈开发** 充满热情。我喜欢创建解决现实问题的强大应用程序。
+
+## ⚙️ 技术技能  
+- **后端：** Java, Spring Boot, Hibernate  
+- **前端：** HTML, CSS, JavaScript, React  
+- **工具：** Git, Docker, Jenkins  
+
+## 🛠️ 主要项目  
+### 教育项目  
+- [springboot_edu](#)  
+- [edu_course_system](#)  
+- [ssm_edu_system](#)  
+- [distributed_edu](#)  
+
+### 商业项目  
+- [ganggang-backend](#)  
+- [zk_product_second_kill](#)  
+- [chedianzhushou-uniapp](#)  
+
+### 工具和实用程序  
+- [RGAlertTool](#)  
+- [PDF-DataMaskingTool](#)  
+
+### 博客和文档  
+- [vitepress-rangang-blog](#)  
+- [rangang-blog](#)  
+
+## 📊 GitHub 统计  
+![GitHub 活动](#)  
+![最常使用的语言](#)  
+![贡献](#)  
+
+## 🎮 贡献蛇动画
+![贡献蛇](#)
+
+## 🌐 社交��接:
+- [LinkedIn](#)
+- [Twitter](#)
+- [Facebook](#)
+
+## 📫 联系我:
+请随时通过电子邮件与我联系，邮箱是 [your_email@example.com].
