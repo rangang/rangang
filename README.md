@@ -1,29 +1,44 @@
-# 我的 GitHub 个人资料
+# My GitHub Profile
 
-欢迎来到我的主页！这里是我在 GitHub 上的项目和一些个人信息。
+## Technical Stack
 
-## 项目链接
-- [项目 1](https://github.com/username/project1) - 简短描述
-- [项目 2](https://github.com/username/project2) - 简短描述
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![Python](https://img.shields.io/badge/Python-3.9-blue)
+![React](https://img.shields.io/badge/React-17.0%2B-brightgreen)
+![Node.js](https://img.shields.io/badge/Node.js-14.x-green)
+![Django](https://img.shields.io/badge/Django-3.2-red)
 
-## GitHub 统计
-![GitHub 统计](https://github-readme-stats.vercel.app/api?username=rangang&show_icons=true&theme=radical)
+## GitHub Statistics
 
-## 社交媒体
-- [Twitter](https://twitter.com/username)
-- [LinkedIn](https://linkedin.com/in/username)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=rangang&show_icons=true&theme=radical)
 
-## 项目描述
-### 项目 1
-这是项目 1 的详细描述，包括使用的技术栈、功能和贡献指南。
+## Main Projects
 
-### 项目 2
-这是项目 2 的详细描述，包括使用的技术栈、功能和贡献指南。
+### Educational Projects
+- **Project A**: This project is designed to teach beginners the basics of programming through interactive challenges.
+- **Project B**: An online learning platform with courses on various subjects.
 
-## 技能徽章
-![](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white)  
-![](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)  
-![](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)  
-![](https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white)  
+### Business Applications
+- **E-commerce Site**: A fully functional e-commerce application built with Node.js and React.
+- **CRM Tool**: A customer relationship management tool for businesses.
 
-感谢您的访问！
+### Tools
+- **CLI Tool**: Command line interface tool for automating various tasks in software development.
+
+### Blog
+- **My Journey in Tech**: A blog where I share my personal journey and experiences in the tech world.
+
+## Contribution Statistics
+
+![Contribution Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=rangang&theme=radical)
+
+## Social Media Links
+- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
+- **Twitter**: [@yourtwitterhandle](https://twitter.com/yourtwitterhandle)
+
+## Contact Information
+You can reach me at: [your.email@example.com] 
+
+---
+
+*Last updated: 2026-04-08 07:18:13 UTC*
