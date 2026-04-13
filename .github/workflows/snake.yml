@@ -1,0 +1,33 @@
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 16 * * *" # 每天 UTC+8 0点更新（北京时间8点）
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 检出代码
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      # 生成贪吃蛇贡献图（Platane/Snk Action）
+      - name: Generate Snake SVG
+        uses: Platane/snk@v3
+        with:
+          github_user_name: rangang
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
+
+      # 上传并提交到 output 分支
+      - name: Push Snake SVG to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
