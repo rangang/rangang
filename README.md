@@ -1,44 +1,47 @@
-# My GitHub Profile
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&pause=1000&width=435&lines=Hi%2C+I%27m+rangang!+%F0%9F%91%8B;Love+coding%2C+open+source%2C+and+learning!" alt="Typing SVG" />
+</p>
 
-## Technical Stack
+<p align="center">
+  <img src="https://github.com/rangang.png" width="150" style="border-radius:50%;" alt="avatar"/>
+</p>
 
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
-![Python](https://img.shields.io/badge/Python-3.9-blue)
-![React](https://img.shields.io/badge/React-17.0%2B-brightgreen)
-![Node.js](https://img.shields.io/badge/Node.js-14.x-green)
-![Django](https://img.shields.io/badge/Django-3.2-red)
-
-## GitHub Statistics
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=rangang&show_icons=true&theme=radical)
-
-## Main Projects
-
-### Educational Projects
-- **Project A**: This project is designed to teach beginners the basics of programming through interactive challenges.
-- **Project B**: An online learning platform with courses on various subjects.
-
-### Business Applications
-- **E-commerce Site**: A fully functional e-commerce application built with Node.js and React.
-- **CRM Tool**: A customer relationship management tool for businesses.
-
-### Tools
-- **CLI Tool**: Command line interface tool for automating various tasks in software development.
-
-### Blog
-- **My Journey in Tech**: A blog where I share my personal journey and experiences in the tech world.
-
-## Contribution Statistics
-
-![Contribution Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=rangang&theme=radical)
-
-## Social Media Links
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
-- **Twitter**: [@yourtwitterhandle](https://twitter.com/yourtwitterhandle)
-
-## Contact Information
-You can reach me at: [your.email@example.com] 
+<h2 align="center">👋 Welcome to my Github!</h2>
 
 ---
 
-*Last updated: 2026-04-08 07:18:13 UTC*
+### 🛠 技能 & 技术栈
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Objective--C-2D3748?style=for-the-badge&logo=apple&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178c6?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/HTML5-e34c26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Vue.js-42b883?style=for-the-badge&logo=vue.js&logoColor=white"/>
+</p>
+
+---
+
+### 📈 GitHub 统计
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=rangang&show_icons=true&theme=radical" alt="GitHub Stats" height="170">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rangang&theme=radical" alt="GitHub Streak" height="170">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rangang&theme=radical&layout=compact" alt="Top Langs" height="130">
+</p>
+
+---
+
+### 🐍 动态贪吃蛇
+
+<p align="center">
+  <img src="https://github.com/rangang/rangang/blob/output/snake.svg" alt="Snake animation" />
+</p>
+
+---
