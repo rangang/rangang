@@ -1,50 +1,68 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-header-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-header-light.svg" />
-  <img src="./assets/profile-header-dark.svg" width="100%" alt="rangang — Frontend developer. Thoughtful interfaces. Useful tools." />
+  <source media="(max-width: 640px)" srcset="./assets/profile-hero-mobile.svg" />
+  <img src="./assets/profile-hero.svg" width="100%" alt="rangang — AI Full Stack Developer. From intelligence to real-world products." />
 </picture>
 
-# 你好，我是阿刚。
+# 阿刚 / AI 全栈开发者
 
-**前端开发者 · 用代码把想法做成好用的工具。**
+**让 AI 走出对话框，成为真正可用的产品。**
 
-这里记录我的前端实践、桌面工具与技术探索。从页面交互到文件处理，我喜欢把具体问题拆开，再做成可以使用的小作品。
+从界面交互到后端服务，从模型能力到应用落地。我关注 AI 与全栈工程的结合，也持续构建 Web 应用、桌面工具与解决具体问题的小作品。
 
-[浏览我的项目 ↗](https://github.com/rangang?tab=repositories) &nbsp; / &nbsp; [技术笔记 ↗](https://github.com/rangang/rangang-blog)
-
-<br />
-
-## 技术与实践
-
-**Web** &nbsp; TypeScript · JavaScript · Vue · React · HTML · CSS  
-**Tools** &nbsp; Electron · Vite · Git  
-**Exploration** &nbsp; Java · Python · Objective-C
+[PROJECTS / 项目 ↗](https://github.com/rangang?tab=repositories) &nbsp; · &nbsp; [NOTES / 笔记 ↗](https://github.com/rangang/rangang-blog) &nbsp; · &nbsp; [STACK / 技术](#技术雷达)
 
 <br />
 
-## 精选项目
+## Intelligence → Engineering → Experience
 
-### [01 &nbsp; 截图翻译 ↗](https://github.com/rangang/screenshot-translator)
+<picture>
+  <source media="(max-width: 640px)" srcset="./assets/profile-system-mobile.svg" />
+  <img src="./assets/profile-system.svg" width="100%" alt="构建方向：AI 应用、后端工程与产品体验" />
+</picture>
 
-框选屏幕、识别文字，再将翻译覆盖到原图上。支持 Windows 与 macOS，让截图、翻译和保存衔接起来。
+把想法拆成可实现的系统，再把系统打磨成好用的体验。
 
-`Electron` `JavaScript` `OCR` `Canvas`
+## 技术雷达
 
-### [02 &nbsp; PDF 脱敏处理工具 ↗](https://github.com/rangang/PDF-DataMaskingTool)
-
-在 PDF 上框选需要处理的区域，支持多页浏览、缩放与文件导出，把常用的文档处理操作放进一个界面。
-
-`React` `Vite` `Tailwind CSS` `pdf-lib`
-
-### [03 &nbsp; 教育课程管理系统 ↗](https://github.com/rangang/edu_course_system)
-
-围绕教育课程管理展开的 Java 单体项目。相关探索还包括 [SSM 后台](https://github.com/rangang/ssm_edu_system)、[分布式架构](https://github.com/rangang/distributed_edu) 与 [Spring Boot](https://github.com/rangang/springboot_edu)。
-
-`Java` `课程管理` `后端实践`
+**AI 方向** &nbsp; LLM 应用 · AI 辅助研发 · 工具与工作流  
+**前端体验** &nbsp; TypeScript · JavaScript · Vue · React · HTML · CSS  
+**后端与脚本** &nbsp; Java · Python  
+**桌面与工程** &nbsp; Electron · Vite · Git · Objective-C
 
 <br />
 
-## 持续积累
+## Selected builds / 精选作品
+
+<a href="https://github.com/rangang/screenshot-translator">
+  <picture>
+    <source media="(max-width: 640px)" srcset="./assets/project-translator-mobile.svg" />
+    <img src="./assets/project-translator.svg" width="100%" alt="01 截图翻译 — Electron / OCR / Canvas，点击查看源码" />
+  </picture>
+</a>
+
+**截图翻译** — 框选屏幕、OCR 识别、翻译覆盖与图片导出。支持 Windows 与 macOS，把一串操作收敛到一次选区。
+
+<a href="https://github.com/rangang/PDF-DataMaskingTool">
+  <picture>
+    <source media="(max-width: 640px)" srcset="./assets/project-pdf-mobile.svg" />
+    <img src="./assets/project-pdf.svg" width="100%" alt="02 PDF 脱敏处理工具 — React / Vite / pdf-lib，点击查看源码" />
+  </picture>
+</a>
+
+**PDF 脱敏处理工具** — 可视化框选处理区域，支持多页浏览、缩放与 PDF 导出，让文档处理更直接。
+
+<a href="https://github.com/rangang/edu_course_system">
+  <picture>
+    <source media="(max-width: 640px)" srcset="./assets/project-education-mobile.svg" />
+    <img src="./assets/project-education.svg" width="100%" alt="03 教育课程管理系统 — Java，点击查看源码" />
+  </picture>
+</a>
+
+**教育课程管理系统** — Java 单体项目与课程管理实践。继续探索：[SSM 后台](https://github.com/rangang/ssm_edu_system) / [分布式架构](https://github.com/rangang/distributed_edu) / [Spring Boot](https://github.com/rangang/springboot_edu)。
+
+<br />
+
+## Commit by commit / 持续构建
 
 每一次提交，都是把想法向前推进一点。
 
@@ -52,4 +70,4 @@
   <img src="./github-contribution-grid-snake.svg" width="100%" alt="由 GitHub 贡献记录生成的贪吃蛇动画" />
 </picture>
 
-<sub>保持好奇，持续动手。 / Stay curious. Keep building.</sub>
+<p align="center"><sub>BUILD WITH INTELLIGENCE. SHIP WITH INTENTION.<br />保持好奇，让想法落地。</sub></p>
