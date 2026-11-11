@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="510" viewBox="0 0 1280 510" role="img" aria-labelledby="title">
-<title id="title">阿刚 | AI 全栈开发者 | 让智能成为产品，让想法触手可及。</title>
+<title id="title">阿刚 | 人工智能全栈开发者 | 让智能成为产品，让想法触手可及。</title>
 <defs>
   <linearGradient id="ink"><stop stop-color="#6fffe3"/><stop offset=".52" stop-color="#76caff"/><stop offset="1" stop-color="#a899ff"/></linearGradient>
   <radialGradient id="aura"><stop stop-color="#1c4c60" stop-opacity=".7"/><stop offset="1" stop-color="#080c17" stop-opacity="0"/></radialGradient>
@@ -24,8 +24,8 @@
 <ellipse cx="1150" cy="200" rx="410" ry="310" fill="url(#aura)"/>
 <path d="M58 40h28" stroke="#6fffe3" stroke-width="3"/>
 <text x="98" y="45" fill="#7ef9df" font-size="13" letter-spacing="3" class="mono">阿刚 / 数字空间</text>
-<text x="53" y="181" fill="url(#ink)" font-size="126" font-weight="700" letter-spacing="-7">rangang<tspan fill="#75ffe0">.</tspan></text>
-<text x="58" y="238" fill="#e0edf8" font-size="30" font-weight="500" letter-spacing="2">AI 全栈开发者</text>
+<text x="53" y="181" fill="url(#ink)" font-size="126" font-weight="700" letter-spacing="6">阿刚<tspan fill="#75ffe0">。</tspan></text>
+<text x="58" y="238" fill="#e0edf8" font-size="30" font-weight="500" letter-spacing="2">人工智能全栈开发者</text>
 <text x="58" y="284" fill="#8da8be" font-size="21">让智能成为产品，让想法触手可及。</text>
 <g transform="translate(1000 250) scale(1.12)">
   <circle r="245" fill="url(#aura)"/>
@@ -35,7 +35,7 @@
   <g fill="none" stroke="#5ee8d3" stroke-opacity=".4"><path d="m0-108 94 54v108l-94 54-94-54V-54Z"/><path d="m0-108 0 216M-94-54 94 54M94-54-94 54"/></g>
   <rect x="-57" y="-57" width="114" height="114" rx="22" fill="#69f8d2" opacity=".15" filter="url(#glow)"/>
   <rect x="-54" y="-54" width="108" height="108" rx="20" fill="#0d242b" stroke="#71ffe0"/>
-  <text x="0" y="16" text-anchor="middle" fill="#b2ffea" font-size="46" font-weight="600">AI</text>
+  <text x="0" y="12" text-anchor="middle" fill="#b2ffea" font-size="34" font-weight="600">智能</text>
   <g fill="#7affe2" class="pulse"><circle cy="-108" r="4"/><circle cx="94" cy="54" r="4"/><circle cx="-94" cy="54" r="4"/></g>
 </g>
 <g transform="translate(58 348)">

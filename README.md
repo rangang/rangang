@@ -1,6 +1,6 @@
 <picture>
   <source media="(max-width: 640px)" srcset="./assets/profile-hero-mobile.svg" />
-  <img src="./assets/profile-hero.svg" width="100%" alt="阿刚 — AI 全栈开发者。让智能成为产品，让想法触手可及。" />
+  <img src="./assets/profile-hero.svg" width="100%" alt="阿刚 — 人工智能全栈开发者。让智能成为产品，让想法触手可及。" />
 </picture>
 
 # 阿刚 / AI 全栈开发者
@@ -24,10 +24,25 @@
 
 ## 技术雷达
 
-**AI 方向** &nbsp; 大模型应用 · AI 辅助研发 · 工具与工作流  
-**前端体验** &nbsp; TypeScript · JavaScript · Vue · React · HTML · CSS  
-**后端与脚本** &nbsp; Java · Python  
-**桌面与工程** &nbsp; Electron · Vite · Git · Objective-C
+**智能应用方向** &nbsp; 大模型应用 · 提示词设计 · 智能工具与工作流 · AI 辅助研发
+
+**编程语言** &nbsp; TypeScript · JavaScript · Java · Python · Dart · Objective-C
+
+**前端开发** &nbsp; Vue · React · HTML · CSS · 响应式布局
+
+**界面与交互** &nbsp; Tailwind CSS · shadcn/ui · Radix UI · Motion · Lucide
+
+**后端服务** &nbsp; Spring Boot · Spring MVC · MyBatis · 接口开发
+
+**数据与缓存** &nbsp; MySQL · Redis · 数据持久化 · 连接池
+
+**分布式实践** &nbsp; Spring Cloud · Dubbo · ZooKeeper · 服务拆分与协作
+
+**移动与桌面** &nbsp; Flutter · Electron · 跨平台界面 · 桌面应用打包
+
+**文档与图形** &nbsp; PDF.js · pdf-lib · Canvas · 文字识别 · 图像合成
+
+**工程与交付** &nbsp; Vite · Maven · Git · GitHub Actions · electron-builder
 
 <br />
 
@@ -36,7 +51,7 @@
 <a href="https://github.com/rangang/screenshot-translator">
   <picture>
     <source media="(max-width: 640px)" srcset="./assets/project-translator-mobile.svg" />
-    <img src="./assets/project-translator.svg" width="100%" alt="01 截图翻译 — Electron / OCR / Canvas，点击查看源码" />
+    <img src="./assets/project-translator.svg" width="100%" alt="01 截图翻译 — 跨平台桌面、文字识别与图像绘制，点击查看源码" />
   </picture>
 </a>
 
@@ -45,7 +60,7 @@
 <a href="https://github.com/rangang/PDF-DataMaskingTool">
   <picture>
     <source media="(max-width: 640px)" srcset="./assets/project-pdf-mobile.svg" />
-    <img src="./assets/project-pdf.svg" width="100%" alt="02 PDF 脱敏处理工具 — React / Vite / pdf-lib，点击查看源码" />
+    <img src="./assets/project-pdf.svg" width="100%" alt="02 文档脱敏处理工具 — 可视化标记、多页预览与文档导出，点击查看源码" />
   </picture>
 </a>
 
@@ -54,7 +69,7 @@
 <a href="https://github.com/rangang/edu_course_system">
   <picture>
     <source media="(max-width: 640px)" srcset="./assets/project-education-mobile.svg" />
-    <img src="./assets/project-education.svg" width="100%" alt="03 教育课程管理系统 — Java，点击查看源码" />
+    <img src="./assets/project-education.svg" width="100%" alt="03 教育课程管理系统 — 课程管理、后端服务与架构实践，点击查看源码" />
   </picture>
 </a>
 

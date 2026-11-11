@@ -25,7 +25,7 @@
 <rect x="1" y="35" width="3" height="150" fill="#b19aff"/>
 <text x="30" y="35" class="mono" font-size="12" fill="#b19aff" letter-spacing="2">精选作品 / 03</text>
 <text x="30" y="88" font-size="29" fill="#e7f2ff" font-weight="600" letter-spacing="0">教育课程管理系统</text>
-<text x="30" y="124" font-size="18" fill="#8ea9c2" class="mono">Java / 课程管理</text>
+<text x="30" y="124" font-size="18" fill="#8ea9c2" class="mono">课程管理 / 后端服务 / 架构实践</text>
 <g transform="translate(535 145) scale(0.65)" fill="none" stroke="#b19aff" stroke-width="2" stroke-linejoin="round"> <path d="M0 20 30 4l30 16-30 16Zm10 12v19l20 9 20-9V32M60 20v26"/></g>
 <text x="30" y="195" class="mono" font-size="12" fill="#657f99" letter-spacing="2">查看项目源码 ↗</text>
 </svg>

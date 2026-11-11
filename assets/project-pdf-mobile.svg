@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="220" viewBox="0 0 640 220" role="img" aria-labelledby="title">
-<title id="title">PDF 脱敏处理工具</title>
+<title id="title">文档脱敏处理工具</title>
 <defs>
   <linearGradient id="ink"><stop stop-color="#6fffe3"/><stop offset=".52" stop-color="#76caff"/><stop offset="1" stop-color="#a899ff"/></linearGradient>
   <radialGradient id="aura"><stop stop-color="#1c4c60" stop-opacity=".7"/><stop offset="1" stop-color="#080c17" stop-opacity="0"/></radialGradient>
@@ -24,8 +24,8 @@
 <ellipse cx="575" cy="90" rx="190" ry="170" fill="url(#aura)"/>
 <rect x="1" y="35" width="3" height="150" fill="#85baff"/>
 <text x="30" y="35" class="mono" font-size="12" fill="#85baff" letter-spacing="2">精选作品 / 02</text>
-<text x="30" y="88" font-size="29" fill="#e7f2ff" font-weight="600" letter-spacing="0">PDF 脱敏处理工具</text>
-<text x="30" y="124" font-size="18" fill="#8ea9c2" class="mono">React / Vite / pdf-lib</text>
+<text x="30" y="88" font-size="29" fill="#e7f2ff" font-weight="600" letter-spacing="0">文档脱敏处理工具</text>
+<text x="30" y="124" font-size="18" fill="#8ea9c2" class="mono">可视化标记 / 多页预览 / 文档导出</text>
 <g transform="translate(535 145) scale(0.65)" fill="none" stroke="#85baff" stroke-width="2" stroke-linejoin="round"> <path d="M12 0h24l14 14v46H12ZM36 0v14h14M20 29h22m-22 10h22m-22 10h14"/></g>
 <text x="30" y="195" class="mono" font-size="12" fill="#657f99" letter-spacing="2">查看项目源码 ↗</text>
 </svg>

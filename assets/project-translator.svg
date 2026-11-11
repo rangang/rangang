@@ -25,7 +25,7 @@
 <rect x="1" y="35" width="3" height="110" fill="#70ffe0"/>
 <text x="30" y="35" class="mono" font-size="12" fill="#70ffe0" letter-spacing="2">精选作品 / 01</text>
 <text x="30" y="90" font-size="36" fill="#e7f2ff" font-weight="600" letter-spacing="1">截图翻译</text>
-<text x="30" y="128" font-size="19" fill="#8ea9c2" class="mono">Electron / 文字识别 / Canvas</text>
+<text x="30" y="128" font-size="19" fill="#8ea9c2" class="mono">跨平台桌面 / 文字识别 / 图像绘制</text>
 <g transform="translate(1175 58) scale(1)" fill="none" stroke="#70ffe0" stroke-width="2" stroke-linejoin="round"> <path d="M0 14V0h14M46 0h14v14M60 46v14H46M14 60H0V46M20 30h20m-10-10v20"/></g>
 <text x="30" y="155" class="mono" font-size="12" fill="#657f99" letter-spacing="2">查看项目源码 ↗</text>
 </svg>
