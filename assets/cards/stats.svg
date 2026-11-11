@@ -5,9 +5,9 @@
   <text x="25" y="72" font-size="13" fill="#a9b1d6">★ 总星标</text>
   <text x="215" y="72" text-anchor="end" font-size="14" font-weight="700" fill="#00e5ff">5</text>
   <text x="260" y="72" font-size="13" fill="#a9b1d6">⌥ 总提交</text>
-  <text x="450" y="72" text-anchor="end" font-size="14" font-weight="700" fill="#9ece6a">1k</text>
+  <text x="450" y="72" text-anchor="end" font-size="14" font-weight="700" fill="#9ece6a">356</text>
   <text x="25" y="108" font-size="13" fill="#a9b1d6">⇪ 总 PR</text>
-  <text x="215" y="108" text-anchor="end" font-size="14" font-weight="700" fill="#8b7cff">2</text>
+  <text x="215" y="108" text-anchor="end" font-size="14" font-weight="700" fill="#8b7cff">1</text>
   <text x="260" y="108" font-size="13" fill="#a9b1d6">◉ 总 Issue</text>
   <text x="450" y="108" text-anchor="end" font-size="14" font-weight="700" fill="#ff2e88">2</text>
   <text x="25" y="144" font-size="13" fill="#a9b1d6">♥ 关注者</text>
