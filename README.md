@@ -1,47 +1,55 @@
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&pause=1000&width=435&lines=Hi%2C+I%27m+rangang!+%F0%9F%91%8B;Love+coding%2C+open+source%2C+and+learning!" alt="Typing SVG" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-header-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-header-light.svg" />
+  <img src="./assets/profile-header-dark.svg" width="100%" alt="rangang — Frontend developer. Thoughtful interfaces. Useful tools." />
+</picture>
 
-<p align="center">
-  <img src="https://github.com/rangang.png" width="150" style="border-radius:50%;" alt="avatar"/>
-</p>
+# 你好，我是阿刚。
 
-<h2 align="center">👋 Welcome to my Github!</h2>
+**前端开发者 · 用代码把想法做成好用的工具。**
 
----
+这里记录我的前端实践、桌面工具与技术探索。从页面交互到文件处理，我喜欢把具体问题拆开，再做成可以使用的小作品。
 
-### 🛠 技能 & 技术栈
+[浏览我的项目 ↗](https://github.com/rangang?tab=repositories) &nbsp; / &nbsp; [技术笔记 ↗](https://github.com/rangang/rangang-blog)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Objective--C-2D3748?style=for-the-badge&logo=apple&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178c6?style=for-the-badge&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/HTML5-e34c26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Vue.js-42b883?style=for-the-badge&logo=vue.js&logoColor=white"/>
-</p>
+<br />
 
----
+## 技术与实践
 
-### 📈 GitHub 统计
+**Web** &nbsp; TypeScript · JavaScript · Vue · React · HTML · CSS  
+**Tools** &nbsp; Electron · Vite · Git  
+**Exploration** &nbsp; Java · Python · Objective-C
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rangang&show_icons=true&theme=radical" alt="GitHub Stats" height="170">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rangang&theme=radical" alt="GitHub Streak" height="170">
-</p>
+<br />
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rangang&theme=radical&layout=compact" alt="Top Langs" height="130">
-</p>
+## 精选项目
 
----
+### [01 &nbsp; 截图翻译 ↗](https://github.com/rangang/screenshot-translator)
 
-### 🐍 动态贪吃蛇
+框选屏幕、识别文字，再将翻译覆盖到原图上。支持 Windows 与 macOS，让截图、翻译和保存衔接起来。
 
-<p align="center">
-  <img src="https://github.com/rangang/rangang/blob/output/snake.svg" alt="Snake animation" />
-</p>
+`Electron` `JavaScript` `OCR` `Canvas`
 
----
+### [02 &nbsp; PDF 脱敏处理工具 ↗](https://github.com/rangang/PDF-DataMaskingTool)
+
+在 PDF 上框选需要处理的区域，支持多页浏览、缩放与文件导出，把常用的文档处理操作放进一个界面。
+
+`React` `Vite` `Tailwind CSS` `pdf-lib`
+
+### [03 &nbsp; 教育课程管理系统 ↗](https://github.com/rangang/edu_course_system)
+
+围绕教育课程管理展开的 Java 单体项目。相关探索还包括 [SSM 后台](https://github.com/rangang/ssm_edu_system)、[分布式架构](https://github.com/rangang/distributed_edu) 与 [Spring Boot](https://github.com/rangang/springboot_edu)。
+
+`Java` `课程管理` `后端实践`
+
+<br />
+
+## 持续积累
+
+每一次提交，都是把想法向前推进一点。
+
+<picture>
+  <img src="./github-contribution-grid-snake.svg" width="100%" alt="由 GitHub 贡献记录生成的贪吃蛇动画" />
+</picture>
+
+<sub>保持好奇，持续动手。 / Stay curious. Keep building.</sub>
