@@ -91,19 +91,19 @@
 
 <p align="center">
   <a href="https://github.com/rangang/zhujiao">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rangang&repo=zhujiao&theme=tokyonight&hide_border=true&show_owner=true" alt="zhujiao — AI 教学助手" />
+    <img src="./assets/cards/pin-zhujiao.svg" alt="zhujiao — AI 教学助手" />
   </a>
   <a href="https://github.com/rangang/screenshot-translator">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rangang&repo=screenshot-translator&theme=tokyonight&hide_border=true&show_owner=true" alt="screenshot-translator — 截图翻译工具" />
+    <img src="./assets/cards/pin-screenshot-translator.svg" alt="screenshot-translator — 截图翻译工具" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/rangang/PDF-DataMaskingTool">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rangang&repo=PDF-DataMaskingTool&theme=tokyonight&hide_border=true&show_owner=true" alt="PDF-DataMaskingTool — PDF 数据脱敏" />
+    <img src="./assets/cards/pin-PDF-DataMaskingTool.svg" alt="PDF-DataMaskingTool — PDF 数据脱敏" />
   </a>
   <a href="https://github.com/rangang/mixia">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rangang&repo=mixia&theme=tokyonight&hide_border=true&show_owner=true" alt="mixia — Flutter 应用" />
+    <img src="./assets/cards/pin-mixia.svg" alt="mixia — Flutter 应用" />
   </a>
 </p>
 
@@ -114,8 +114,8 @@
 ## 📊 数据星域
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rangang&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&locale=cn" height="165" alt="GitHub 统计" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rangang&layout=compact&theme=tokyonight&hide_border=true&locale=cn&langs_count=8" height="165" alt="常用语言" />
+  <img src="./assets/cards/stats.svg" height="165" alt="GitHub 统计" />
+  <img src="./assets/cards/langs.svg" height="165" alt="常用语言" />
 </p>
 
 <p align="center">
@@ -127,10 +127,6 @@
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rangang/rangang/output/snake-dark.svg" />
     <img src="https://raw.githubusercontent.com/rangang/rangang/output/snake.svg" width="100%" alt="贡献贪吃蛇动画" />
   </picture>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rangang&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="贡献活动图" />
 </p>
 
 ## 🔗 找到我
