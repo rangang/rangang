@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>前端阿刚 · 代码星域 | RANGANG.SPACE</title>
+<meta name="description" content="前端阿刚（rangang）的 3D 交互主页 —— 一片由代码驱动的粒子星域，拖动旋转、重塑参数、触发脉冲。AI 全栈开发者，让想法落地。" />
+<meta property="og:title" content="前端阿刚 · 代码星域" />
+<meta property="og:description" content="一片由代码驱动的 3D 粒子星域。拖动它，重塑它。" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%238b7cff'/%3E%3Cstop offset='1' stop-color='%2300e5ff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='32' cy='32' r='28' fill='%23050514' stroke='url(%23g)' stroke-width='4'/%3E%3Ctext x='32' y='43' font-family='Arial,sans-serif' font-size='30' font-weight='bold' fill='url(%23g)' text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E" />
+<link rel="stylesheet" href="./assets/style.css" />
+<script type="importmap">
+{
+  "imports": {
+    "three": "./vendor/three.module.js",
+    "three/addons/": "./vendor/jsm/"
+  }
+}
+</script>
+</head>
+<body data-theme="nebula">
+
+<!-- 3D 画布 -->
+<div id="scene" aria-label="3D 粒子星域，可拖动旋转" role="img"></div>
+
+<!-- 氛围叠加层 -->
+<div class="fx-vignette" aria-hidden="true"></div>
+<div class="fx-scan" aria-hidden="true"></div>
+<div class="fx-grain" aria-hidden="true"></div>
+<div class="frame" aria-hidden="true"><i class="c tl"></i><i class="c tr"></i><i class="c bl"></i><i class="c br"></i></div>
+
+<!-- 顶栏 -->
+<header class="topbar">
+  <a class="brand" href="https://github.com/rangang" target="_blank" rel="noopener">
+    <span class="brand-avatar"><img src="./assets/avatar.jpg" alt="前端阿刚的头像" width="38" height="38" /></span>
+    <span class="brand-text">
+      <b>前端阿刚</b>
+      <em>RANGANG · AI FULL-STACK</em>
+    </span>
+  </a>
+  <nav class="topnav">
+    <button id="btnSound" class="icon-btn" type="button" aria-pressed="true" title="开关音效（M）">
+      <svg class="i-on" viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9.4 9.4 0 0 1 0 13"/></svg>
+      <svg class="i-off" viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4V5z"/><path d="m16 9 5 6M21 9l-5 6"/></svg>
+      <span id="soundLabel">音效 开</span>
+    </button>
+    <a class="icon-btn gh" href="https://github.com/rangang" target="_blank" rel="noopener" title="GitHub 主页">
+      <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      <span>GitHub</span>
+    </a>
+  </nav>
+</header>
+
+<!-- 身份区 -->
+<main class="identity">
+  <p class="eyebrow"><span class="caret" aria-hidden="true"></span>AI FULL-STACK DEVELOPER · CHONGQING · UTC+8</p>
+  <h1>
+    <span class="cn">阿刚</span>
+    <span class="en" id="scramble" aria-label="RANGANG">RANGANG</span>
+  </h1>
+  <p class="tagline">让 AI 走出对话框，成为真正可用的产品。<br />这片星域由代码驱动 —— <b>拖动它，重塑它。</b></p>
+  <div class="cta-row">
+    <a class="btn primary" href="https://github.com/rangang" target="_blank" rel="noopener">
+      <svg viewBox="0 0 16 16" width="15" height="15" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      GitHub 主页
+    </a>
+    <a class="btn ghost" href="https://github.com/rangang/rangang-blog" target="_blank" rel="noopener">技术博客 ↗</a>
+    <button class="btn pulse-btn" id="btnPulse" type="button" title="向星核发送一次能量脉冲">
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M13 2 4.5 13.5H11L9.5 22 19 10h-6.5L13 2z"/></svg>
+      触发脉冲
+    </button>
+  </div>
+</main>
+
+<!-- 常驻控制台 -->
+<aside id="console" aria-label="星域控制台">
+  <div class="console-head">
+    <span class="live-dot" aria-hidden="true"></span>
+    星域控制台 <em>CONSOLE</em>
+  </div>
+  <div class="console-body">
+    <section class="grp">
+      <h3>粒子场 <em>FIELD</em></h3>
+      <div class="ctl">
+        <div class="ctl-top"><label for="ctlParticles">粒子数量</label><output id="outParticles">16000</output></div>
+        <input type="range" id="ctlParticles" min="2000" max="30000" step="500" value="16000" />
+      </div>
+      <div class="ctl">
+        <div class="ctl-top"><label for="ctlRadius">星系半径</label><output id="outRadius">8.0</output></div>
+        <input type="range" id="ctlRadius" min="4" max="14" step="0.5" value="8" />
+      </div>
+      <div class="ctl">
+        <div class="ctl-top"><label for="ctlStars">远景星尘</label><output id="outStars">2600</output></div>
+        <input type="range" id="ctlStars" min="400" max="6000" step="200" value="2600" />
+      </div>
+    </section>
+
+    <section class="grp">
+      <h3>动力学 <em>DYNAMICS</em></h3>
+      <div class="ctl">
+        <div class="ctl-top"><label for="ctlSpeed">旋转速度</label><output id="outSpeed">1.00×</output></div>
+        <input type="range" id="ctlSpeed" min="0" max="3" step="0.05" value="1" />
+      </div>
+      <div class="ctl">
+        <div class="ctl-top"><label for="ctlDistort">核心扰动</label><output id="outDistort">0.35</output></div>
+        <input type="range" id="ctlDistort" min="0" max="1" step="0.01" value="0.35" />
+      </div>
+    </section>
+
+    <section class="grp grp-render">
+      <h3>渲染 <em>RENDER</em></h3>
+      <div class="ctl">
+        <div class="ctl-top"><label for="ctlBloom">辉光强度</label><output id="outBloom">0.75</output></div>
+        <input type="range" id="ctlBloom" min="0" max="2" step="0.05" value="0.75" />
+      </div>
+      <div class="ctl">
+        <div class="ctl-top"><label for="ctlTheme">色彩主题</label></div>
+        <select id="ctlTheme">
+          <option value="nebula" selected>星云紫 · NEBULA</option>
+          <option value="aurora">极光青 · AURORA</option>
+          <option value="ember">熔金橙 · EMBER</option>
+          <option value="abyss">深空蓝 · ABYSS</option>
+        </select>
+      </div>
+      <label class="switch-row" for="ctlWire">
+        <span>线框核心</span>
+        <input type="checkbox" id="ctlWire" />
+        <i class="track" aria-hidden="true"></i>
+      </label>
+      <label class="switch-row" for="ctlOrbit">
+        <span>自动巡航</span>
+        <input type="checkbox" id="ctlOrbit" checked />
+        <i class="track" aria-hidden="true"></i>
+      </label>
+    </section>
+
+    <div class="actions">
+      <button id="btnReset" class="act" type="button" title="恢复默认参数与视角（R）">
+        <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg>
+        重置
+      </button>
+      <button id="btnRandom" class="act" type="button" title="随机形态（F）">
+        <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="8.5" cy="8.5" r="1.2" fill="currentColor"/><circle cx="15.5" cy="15.5" r="1.2" fill="currentColor"/><circle cx="15.5" cy="8.5" r="1.2" fill="currentColor"/><circle cx="8.5" cy="15.5" r="1.2" fill="currentColor"/></svg>
+        随机
+      </button>
+      <button id="btnShot" class="act" type="button" title="导出当前画面 PNG（S）">
+        <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.4"/></svg>
+        快照
+      </button>
+    </div>
+    <p class="console-tip">快捷键&nbsp; R 重置 · F 随机 · S 快照 · M 静音</p>
+  </div>
+</aside>
+
+<!-- 底部 HUD -->
+<footer class="hud">
+  <div class="hint"><span class="key">拖动</span>旋转 · <span class="key">滚轮</span>缩放 · <span class="key">点击星核</span>触发脉冲</div>
+  <div class="stats">
+    <span class="live"><i aria-hidden="true"></i>SYS.ONLINE</span>
+    <span>FPS <b id="statFps">--</b></span>
+    <span>粒子 <b id="statCount">16000</b></span>
+    <span>方位 <b id="statAz">0°</b></span>
+  </div>
+</footer>
+
+<!-- 技术栈跑马灯 -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track" id="tickerTrack"></div>
+</div>
+
+<!-- 提示气泡 -->
+<div id="toast" role="status" aria-live="polite"></div>
+
+<!-- 启动画面 -->
+<div id="boot">
+  <div class="boot-core" aria-hidden="true"><i></i><i></i><i></i></div>
+  <div class="boot-logo">RANGANG<span>.SPACE</span></div>
+  <div class="boot-bar"><i id="bootFill"></i></div>
+  <div class="boot-status" id="bootStatus">初始化渲染器…</div>
+</div>
+
+<!-- WebGL 不可用时的降级页面 -->
+<div id="fallback" hidden>
+  <div class="fb-stars" aria-hidden="true"></div>
+  <div class="fb-card">
+    <img src="./assets/avatar.jpg" alt="前端阿刚的头像" width="88" height="88" />
+    <h1>阿刚 <span>RANGANG</span></h1>
+    <p class="fb-tag">让 AI 走出对话框，成为真正可用的产品。</p>
+    <p class="fb-note">当前环境无法启动 WebGL 3D 星域，已切换为静态模式。使用最新版 Chrome / Edge / Firefox 可获得完整体验。</p>
+    <div class="cta-row">
+      <a class="btn primary" href="https://github.com/rangang" target="_blank" rel="noopener">GitHub 主页 ↗</a>
+      <a class="btn ghost" href="https://github.com/rangang/rangang-blog" target="_blank" rel="noopener">技术博客 ↗</a>
+    </div>
+  </div>
+</div>
+
+<noscript>
+  <div style="position:fixed;inset:0;z-index:999;background:#050514;color:#eef0ff;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;font-family:sans-serif">
+    <div><h1 style="letter-spacing:.3em">RANGANG</h1><p>这片星域需要 JavaScript 才能点亮。<br/>请启用脚本后刷新，或直接访问 <a style="color:#00e5ff" href="https://github.com/rangang">github.com/rangang</a></p></div>
+  </div>
+</noscript>
+
+<script>
+  window.__bootTimer = setTimeout(function () {
+    if (!window.__APP_READY) {
+      var b = document.getElementById('boot');
+      if (b) b.style.display = 'none';
+      var f = document.getElementById('fallback');
+      if (f) f.hidden = false;
+    }
+  }, 15000);
+</script>
+<script type="module" src="./assets/main.js"></script>
+</body>
+</html>
