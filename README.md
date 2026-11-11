@@ -1,19 +1,19 @@
 <picture>
   <source media="(max-width: 640px)" srcset="./assets/profile-hero-mobile.svg" />
-  <img src="./assets/profile-hero.svg" width="100%" alt="rangang — AI Full Stack Developer. From intelligence to real-world products." />
+  <img src="./assets/profile-hero.svg" width="100%" alt="阿刚 — AI 全栈开发者。让智能成为产品，让想法触手可及。" />
 </picture>
 
 # 阿刚 / AI 全栈开发者
 
 **让 AI 走出对话框，成为真正可用的产品。**
 
-从界面交互到后端服务，从模型能力到应用落地。我关注 AI 与全栈工程的结合，也持续构建 Web 应用、桌面工具与解决具体问题的小作品。
+从界面交互到后端服务，从模型能力到应用落地。我关注 AI 与全栈工程的结合，也持续构建网页应用、桌面工具与解决具体问题的小作品。
 
-[PROJECTS / 项目 ↗](https://github.com/rangang?tab=repositories) &nbsp; · &nbsp; [NOTES / 笔记 ↗](https://github.com/rangang/rangang-blog) &nbsp; · &nbsp; [STACK / 技术](#技术雷达)
+[我的项目 ↗](https://github.com/rangang?tab=repositories) &nbsp; · &nbsp; [技术笔记 ↗](https://github.com/rangang/rangang-blog) &nbsp; · &nbsp; [技术雷达](#技术雷达)
 
 <br />
 
-## Intelligence → Engineering → Experience
+## 智能应用 → 全栈工程 → 产品体验
 
 <picture>
   <source media="(max-width: 640px)" srcset="./assets/profile-system-mobile.svg" />
@@ -24,14 +24,14 @@
 
 ## 技术雷达
 
-**AI 方向** &nbsp; LLM 应用 · AI 辅助研发 · 工具与工作流  
+**AI 方向** &nbsp; 大模型应用 · AI 辅助研发 · 工具与工作流  
 **前端体验** &nbsp; TypeScript · JavaScript · Vue · React · HTML · CSS  
 **后端与脚本** &nbsp; Java · Python  
 **桌面与工程** &nbsp; Electron · Vite · Git · Objective-C
 
 <br />
 
-## Selected builds / 精选作品
+## 精选作品
 
 <a href="https://github.com/rangang/screenshot-translator">
   <picture>
@@ -62,7 +62,7 @@
 
 <br />
 
-## Commit by commit / 持续构建
+## 持续构建
 
 每一次提交，都是把想法向前推进一点。
 
@@ -70,4 +70,4 @@
   <img src="./github-contribution-grid-snake.svg" width="100%" alt="由 GitHub 贡献记录生成的贪吃蛇动画" />
 </picture>
 
-<p align="center"><sub>BUILD WITH INTELLIGENCE. SHIP WITH INTENTION.<br />保持好奇，让想法落地。</sub></p>
+<p align="center"><sub>以智能驱动创造，用工程交付价值。<br />保持好奇，让想法落地。</sub></p>
