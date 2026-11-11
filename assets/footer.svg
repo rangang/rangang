@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="120" viewBox="0 0 1280 120" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif">
+  <defs>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b7cff"/>
+      <stop offset="0.5" stop-color="#00e5ff"/>
+      <stop offset="1" stop-color="#ff2e88"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b0a26" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0b0a26"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="120" fill="url(#fade)"/>
+  <path d="M0 70 C 240 30 420 100 640 66 C 860 32 1040 96 1280 58" fill="none" stroke="url(#wave)" stroke-width="2" opacity="0.75">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite"
+      values="M0 70 C 240 30 420 100 640 66 C 860 32 1040 96 1280 58;
+              M0 62 C 240 96 420 34 640 70 C 860 100 1040 36 1280 66;
+              M0 70 C 240 30 420 100 640 66 C 860 32 1040 96 1280 58"/>
+  </path>
+  <path d="M0 82 C 240 46 420 110 640 80 C 860 48 1040 108 1280 72" fill="none" stroke="url(#wave)" stroke-width="1.2" opacity="0.3">
+    <animate attributeName="d" dur="13s" repeatCount="indefinite"
+      values="M0 82 C 240 46 420 110 640 80 C 860 48 1040 108 1280 72;
+              M0 76 C 240 108 420 50 640 84 C 860 112 1040 52 1280 80;
+              M0 82 C 240 46 420 110 640 80 C 860 48 1040 108 1280 72"/>
+  </path>
+  <text x="640" y="42" text-anchor="middle" font-size="15" letter-spacing="3" fill="#9aa0c8">以智能驱动创造 · 用工程交付价值</text>
+</svg>
