@@ -4,26 +4,26 @@
   <text x="395" y="36" text-anchor="end" font-size="11" fill="#565f89">按代码量占比</text>
   <text x="25" y="66" font-size="12" fill="#a9b1d6">Java</text>
   <rect x="130" y="57" width="200" height="8" rx="4" fill="#2f334d"/>
-  <rect x="130" y="57" width="62.77929128819621" height="8" rx="4" fill="#b07219"/>
-  <text x="395" y="66" text-anchor="end" font-size="11" fill="#565f89">31.4%</text>
+  <rect x="130" y="57" width="61.665375335616744" height="8" rx="4" fill="#b07219"/>
+  <text x="395" y="66" text-anchor="end" font-size="11" fill="#565f89">30.8%</text>
   <text x="25" y="86" font-size="12" fill="#a9b1d6">TypeScript</text>
   <rect x="130" y="77" width="200" height="8" rx="4" fill="#2f334d"/>
-  <rect x="130" y="77" width="48.566648577465635" height="8" rx="4" fill="#3178c6"/>
-  <text x="395" y="86" text-anchor="end" font-size="11" fill="#565f89">24.3%</text>
+  <rect x="130" y="77" width="47.78907808513711" height="8" rx="4" fill="#3178c6"/>
+  <text x="395" y="86" text-anchor="end" font-size="11" fill="#565f89">23.9%</text>
   <text x="25" y="106" font-size="12" fill="#a9b1d6">Dart</text>
   <rect x="130" y="97" width="200" height="8" rx="4" fill="#2f334d"/>
-  <rect x="130" y="97" width="37.79565360861329" height="8" rx="4" fill="#00B4AB"/>
-  <text x="395" y="106" text-anchor="end" font-size="11" fill="#565f89">18.9%</text>
-  <text x="25" y="126" font-size="12" fill="#a9b1d6">HTML</text>
+  <rect x="130" y="97" width="37.125031487386536" height="8" rx="4" fill="#00B4AB"/>
+  <text x="395" y="106" text-anchor="end" font-size="11" fill="#565f89">18.6%</text>
+  <text x="25" y="126" font-size="12" fill="#a9b1d6">Rust</text>
   <rect x="130" y="117" width="200" height="8" rx="4" fill="#2f334d"/>
-  <rect x="130" y="117" width="11.80165403764944" height="8" rx="4" fill="#e34c26"/>
-  <text x="395" y="126" text-anchor="end" font-size="11" fill="#565f89">5.9%</text>
-  <text x="25" y="146" font-size="12" fill="#a9b1d6">Rust</text>
+  <rect x="130" y="117" width="12.577644015247655" height="8" rx="4" fill="#dea584"/>
+  <text x="395" y="126" text-anchor="end" font-size="11" fill="#565f89">6.3%</text>
+  <text x="25" y="146" font-size="12" fill="#a9b1d6">HTML</text>
   <rect x="130" y="137" width="200" height="8" rx="4" fill="#2f334d"/>
-  <rect x="130" y="137" width="9.743617479637495" height="8" rx="4" fill="#dea584"/>
-  <text x="395" y="146" text-anchor="end" font-size="11" fill="#565f89">4.9%</text>
+  <rect x="130" y="137" width="11.592252968768094" height="8" rx="4" fill="#e34c26"/>
+  <text x="395" y="146" text-anchor="end" font-size="11" fill="#565f89">5.8%</text>
   <text x="25" y="166" font-size="12" fill="#a9b1d6">JavaScript</text>
   <rect x="130" y="157" width="200" height="8" rx="4" fill="#2f334d"/>
-  <rect x="130" y="157" width="8.70846143141286" height="8" rx="4" fill="#f1e05a"/>
-  <text x="395" y="166" text-anchor="end" font-size="11" fill="#565f89">4.4%</text>
+  <rect x="130" y="157" width="8.553944011546768" height="8" rx="4" fill="#f1e05a"/>
+  <text x="395" y="166" text-anchor="end" font-size="11" fill="#565f89">4.3%</text>
 </svg>
